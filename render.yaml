@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: storemanager-api
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: ~18.0.0
+      - key: MONGO_URI
+        sync: false
+      - key: PORT
+        value: 10000
