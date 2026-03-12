@@ -21,7 +21,7 @@ app.use((err, req, res, next) => {
 
 // Database connection
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/storemanager';
+const MONGO_URI = process.env.MONGO_URI || 'MONGO_URI=mongodb+srv://ren666sk_db_user:spev6TKjskJCXCSh@cluster0.wwvc1nt.mongodb.net/storemanager?retryWrites=true&w=majority';
 
 mongoose.connect(MONGO_URI)
   .then(() => {
