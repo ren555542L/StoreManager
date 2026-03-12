@@ -21,7 +21,7 @@ app.use((err, req, res, next) => {
 
 // Database connection
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = process.env.MONGO_URI || 'MONGO_URI=mongodb+srv://ren666sk_db_user:<speV6TKjsKJCXCSh>@cluster0.wwvc1nt.mongodb.net/?appName=Cluster0';
+const MONGO_URI = process.env.MONGO_URI || 'MONGO_URI=mongodb+srv://ren666sk_db_user:<aryan1010>@cluster0.wwvc1nt.mongodb.net/?appName=Cluster0';
 
 mongoose.connect(MONGO_URI)
   .then(() => {
