@@ -29,9 +29,9 @@
   "manufactureDate": "2025-01-01T00:00:00.000Z",
   "productType": "Non-Perishable",
   "status": "Available",
-  "_id": "69b27c729498472b55ca6f2d",
-  "createdAt": "2026-03-12T08:42:26.425Z",
-  "updatedAt": "2026-03-12T08:42:26.425Z",
+  "_id": "69b282352de0de87594dd89a",
+  "createdAt": "2026-03-12T09:07:01.283Z",
+  "updatedAt": "2026-03-12T09:07:01.283Z",
   "__v": 0
 }
 ```
@@ -42,7 +42,7 @@
 **Response Body:** ```json
 [
   {
-    "_id": "69b27c729498472b55ca6f2d",
+    "_id": "69b282352de0de87594dd89a",
     "productName": "Laptop Pro X",
     "productCode": "LPT-001",
     "category": "Electronics",
@@ -53,19 +53,19 @@
     "manufactureDate": "2025-01-01T00:00:00.000Z",
     "productType": "Non-Perishable",
     "status": "Available",
-    "createdAt": "2026-03-12T08:42:26.425Z",
-    "updatedAt": "2026-03-12T08:42:26.425Z",
+    "createdAt": "2026-03-12T09:07:01.283Z",
+    "updatedAt": "2026-03-12T09:07:01.283Z",
     "__v": 0
   }
 ]
 ```
 
 ## 3. Get product by ID
-**Request:** GET http://localhost:3000/products/69b27c729498472b55ca6f2d
+**Request:** GET http://localhost:3000/products/69b282352de0de87594dd89a
 **Response Status:** 200
 **Response Body:** ```json
 {
-  "_id": "69b27c729498472b55ca6f2d",
+  "_id": "69b282352de0de87594dd89a",
   "productName": "Laptop Pro X",
   "productCode": "LPT-001",
   "category": "Electronics",
@@ -76,14 +76,14 @@
   "manufactureDate": "2025-01-01T00:00:00.000Z",
   "productType": "Non-Perishable",
   "status": "Available",
-  "createdAt": "2026-03-12T08:42:26.425Z",
-  "updatedAt": "2026-03-12T08:42:26.425Z",
+  "createdAt": "2026-03-12T09:07:01.283Z",
+  "updatedAt": "2026-03-12T09:07:01.283Z",
   "__v": 0
 }
 ```
 
 ## 4. Update product details
-**Request:** PUT http://localhost:3000/products/69b27c729498472b55ca6f2d
+**Request:** PUT http://localhost:3000/products/69b282352de0de87594dd89a
 **Body:** ```json
 {
   "unitPrice": 1100,
@@ -93,7 +93,7 @@
 **Response Status:** 200
 **Response Body:** ```json
 {
-  "_id": "69b27c729498472b55ca6f2d",
+  "_id": "69b282352de0de87594dd89a",
   "productName": "Laptop Pro X",
   "productCode": "LPT-001",
   "category": "Electronics",
@@ -104,8 +104,8 @@
   "manufactureDate": "2025-01-01T00:00:00.000Z",
   "productType": "Non-Perishable",
   "status": "Available",
-  "createdAt": "2026-03-12T08:42:26.425Z",
-  "updatedAt": "2026-03-12T08:42:26.450Z",
+  "createdAt": "2026-03-12T09:07:01.283Z",
+  "updatedAt": "2026-03-12T09:07:01.523Z",
   "__v": 0
 }
 ```
@@ -116,7 +116,7 @@
 **Response Body:** ```json
 [
   {
-    "_id": "69b27c729498472b55ca6f2d",
+    "_id": "69b282352de0de87594dd89a",
     "productName": "Laptop Pro X",
     "productCode": "LPT-001",
     "category": "Electronics",
@@ -127,8 +127,8 @@
     "manufactureDate": "2025-01-01T00:00:00.000Z",
     "productType": "Non-Perishable",
     "status": "Available",
-    "createdAt": "2026-03-12T08:42:26.425Z",
-    "updatedAt": "2026-03-12T08:42:26.450Z",
+    "createdAt": "2026-03-12T09:07:01.283Z",
+    "updatedAt": "2026-03-12T09:07:01.523Z",
     "__v": 0
   }
 ]
@@ -140,7 +140,7 @@
 **Response Body:** ```json
 [
   {
-    "_id": "69b27c729498472b55ca6f2d",
+    "_id": "69b282352de0de87594dd89a",
     "productName": "Laptop Pro X",
     "productCode": "LPT-001",
     "category": "Electronics",
@@ -151,15 +151,15 @@
     "manufactureDate": "2025-01-01T00:00:00.000Z",
     "productType": "Non-Perishable",
     "status": "Available",
-    "createdAt": "2026-03-12T08:42:26.425Z",
-    "updatedAt": "2026-03-12T08:42:26.450Z",
+    "createdAt": "2026-03-12T09:07:01.283Z",
+    "updatedAt": "2026-03-12T09:07:01.523Z",
     "__v": 0
   }
 ]
 ```
 
 ## 7. Delete a product
-**Request:** DELETE http://localhost:3000/products/69b27c729498472b55ca6f2d
+**Request:** DELETE http://localhost:3000/products/69b282352de0de87594dd89a
 **Response Status:** 200
 **Response Body:** ```json
 {
